@@ -109,7 +109,7 @@ global.timestamp.connect = new Date
 if (global.db.data == null) loadDatabase()
 if (connection == 'open') {
 console.log(chalk.yellow('▣─────────────────────────────···\n│\n│❧ 𝙲𝙾𝙽𝙴𝙲𝚃𝙰𝙳𝙾 𝙲𝙾𝚁𝚁𝙴𝙲𝚃𝙰𝙼𝙴𝙽𝚃𝙴 𝙰𝙻 𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿 ✅\n│\n▣─────────────────────────────···'))
-await conn.sendHydrated(`50200000000@s.whatsapp.net`, `𝙷𝙾𝙻𝙰 𝐉𝐡𝐮𝐬𝐳ᙆ  ᷦ×͜×, 𝚂𝙴 𝙳𝙴𝚃𝙴𝙲𝚃𝙾 𝚀𝚄𝙴 𝙴𝚂𝚃𝙴 𝙽𝚄𝙼𝙴𝚁𝙾 𝙴𝚂 𝚄𝙽 𝙽𝚄𝙴𝚅𝙾 𝙱𝙾𝚃 𝙰𝙲𝚃𝙸𝚅𝙾 ✅`, author, pp, null, null, null, null, [['🌹 𝙾𝚆𝙽𝙴𝚁 🌹', '/owner'], ['👾 𝙼𝙴𝙽𝚄 𝙿𝚁𝙸𝙽𝙲𝙸𝙿𝙰𝙻 👾', '#menu']])
+await conn.sendHydrated(`50200000000@s.whatsapp.net`, `𝙷𝙾𝙻𝙰 𝐉𝐡𝐮𝐬𝐳ᙆ  ᷦ×͜×, 𝚂𝙴 𝙳𝙴𝚃𝙴𝙲𝚃𝙾 𝚀𝚄𝙴 𝙴𝚂𝚃𝙴 𝙽𝚄𝙼𝙴𝚁𝙾 𝙴𝚂 𝚄𝙽 𝙽𝚄𝙴𝚅𝙾 𝙱𝙾𝚃 𝙰𝙲𝚃𝙸𝚅𝙾 ✅`, author, pp, null, null, null, null, [[' OWNER❔', '/owner'], ['Menú Principal ❗', '#menu']])
 await conn.groupAcceptInvite('CY0MyfxPBOp5ii48Zm9zqS')}}
 
 process.on('uncaughtException', console.error)
@@ -139,8 +139,8 @@ conn.ev.off('connection.update', conn.connectionUpdate)
 conn.ev.off('creds.update', conn.credsUpdate)
 }
   
-conn.welcome = '*╔══════════════*\n*╟❧ @subject*\n*╠══════════════*\n*╟❧ @user*\n*╟❧ BIENVENIDO!* \n*║*\n*╟❧ Descripción del grupo:*\n*╟❧* @desc\n*║*\n*╟❧ Disfruta tu estadía.*\n*╚══════════════*'
-conn.bye = '*╔══════════════*\n*╟❧ @user*\n*╟❧ Hasta nunca, gil.* \n*╚══════════════*'
+conn.welcome = '*╭─────────────╮*\n*┞ ♱ @subject*\n*┞─────────────*\n*┞ ♱ @user*\n*┞ ♱ BIENVENIDO!* \n*│*\n*┞ ♱ Descripción del grupo:*\n*┞ ♱* @desc\n*│*\n*┞ ♱ Disfruta tu estadía.*\n*╰─────────────╯*'
+conn.bye = '*╭─────────────╮*\n*┞ ♱❧ @user*\n*┞ ♱ Hasta nunca, gil.🫶🏻* \n*╰─────────────╯*'
 conn.spromote = '*@user ¡Se suma a administración!*'
 conn.sdemote = '*@user Abandona administración. :c*'
 conn.sDesc = '*Se ha modificado la descripción del grupo!*\n\n*Nueva descripción:* @desc'
